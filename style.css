@@ -1,0 +1,439 @@
+/* Reset de estilos padrão do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Estilo do corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #051029;
+  color: white;
+}
+
+.titulo {
+  text-align: center;
+}
+
+details>summary {
+  list-style: none;
+}
+
+summary::webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: 'ABRIR';
+  display: flex;
+  justify-content: center;
+}
+
+details[open] summary:after {
+  content: 'FECHAR';
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #333;
+  color: white;
+  padding: 100px 0;
+}
+
+.cabecalho {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+
+.logo img {
+  border-radius: 30%;
+  background-size: cover;
+  height: 100px;
+  width: auto;
+}
+
+
+/* Estilos para o menu */
+.menu {
+  background-color: #1a368344;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 95px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#menu {
+  display: flex;
+}
+
+.menu li {
+  border-radius: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu li:hover {
+  border-radius: 25px;
+  background-color: #0078d4;
+  color: #fff;
+}
+
+
+/* Estilo da seção "Início" */
+.inicio {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inicio img {
+  border-radius: 25px;
+  width: 350px;
+  box-shadow: 0px 0px 150px blue;
+}
+
+.inicio p{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 45px;
+}
+
+.btn-portifolio a {
+  background: linear-gradient(60deg, blue, red);
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-portifolio {
+  margin-top: -50px;
+  padding-bottom:100px;
+  padding-left: 40px;
+}
+
+
+/* Estilo da seção "Sobre Mim" */
+#sobremim {
+  background-color: #09193f;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sobremim h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#sobremim h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+#sobremim p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+/* Estilo da seção "Dados Pessoais" */
+.dados-pessoais {
+  background-color: #09193f;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dados-pessoais h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.dados-pessoais p {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+/* Estilo da seção "Curso" */
+.curso {
+  background-color: #09193f;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#curso {
+  display: flex;
+  justify-content: space-around;
+}
+
+.curso h6 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.curso h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.proz p, 
+.zion p {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+
+/* Estilo da seção "Projetos" */
+#projetos {
+  background-color: #09193f;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#projetos h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.projetos {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.calcadishopping h2{
+  font-size: 25px;
+}
+/* Estilo da seção "Habilidades" */
+#habilidades {
+  background-color: #09193f;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#habilidades h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#habilidades a {
+  margin: 0 10px;
+}
+
+.habilidades {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.html5,
+.css3{
+  width: 90px;
+}
+
+.javascript{
+  width: 118px;
+}
+
+.diagrama{
+  width: 128px;
+}
+
+.mysql {
+  width: 180px;
+}
+
+
+/* Estilo da seção "Contato" */
+#contatos {
+  background-color: #09193f;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contatos h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contato img {
+  width: 120px;
+}
+
+.contato {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* Estilo de GitHub */
+.github h4{
+  margin-bottom:30px ;
+}
+
+.github:hover,
+.gmail:hover,
+.linked:hover
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(14, 209, 199);
+  color: black;
+  padding: 15px 25px;
+  border-radius: 25px;
+}
+
+
+/* Rodapé */
+footer {
+  background-color: #800080;
+}
+
+.footer {
+  padding: 85px 15% 70px;
+}
+
+.footer {
+  background-color: #080427;
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 3.5rem;
+  position: relative;
+  color: white;
+  justify-content: space-between;
+}
+
+.portfolio {
+  color: white;
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  align-items: center;
+}
+
+.portfolio img {
+  margin: 0px;
+  width: 100px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.fundo {
+  width: 100%;
+  height: 100px;
+}
+
+.footer-content h4 {
+  color: #5707eb;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.footer-content a {
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  color: white;
+}
+
+.footer-content p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 5px 0;
+}
+
+.acessar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+#curriculo {
+  width: 70px;
+  mix-blend-mode: color-burn;
+}
+
+#instagram{
+  width: 70px;
+}
+
+#linked {
+  border-radius: 10px;
+  width: 50px;
+}
+
+footer div{
+  background-color: #080427;
+}
+
+.criador {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.criador a {
+  color: white;
+}
+
+.origem {
+  color: white;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsividade - TABLET */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  body {
+    background-color: #051029;
+  }
+}
+
+/* Responsividade - Celular*/
+@media screen and (max-width: 767px) {
+  body {
+    background-color: #051029;
+  }
+}
