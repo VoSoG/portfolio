@@ -29,6 +29,7 @@ summary::after {
   content: 'ABRIR';
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 details[open] summary:after {
@@ -306,8 +307,9 @@ header {
 
 
 /* Estilo de GitHub */
-.github h4{
-  margin-bottom:30px ;
+.github {
+  display: flex;
+  align-items: center;
 }
 
 .github:hover,
@@ -424,16 +426,97 @@ footer div{
   align-items: center;
 }
 
-/* Responsividade - TABLET */
-@media screen and (min-width: 767px) and (max-width: 1023px) {
-  body {
-    background-color: #051029;
-  }
-}
 
 /* Responsividade - Celular*/
 @media screen and (max-width: 767px) {
+  /* Estilo do corpo */
   body {
     background-color: #051029;
+  }
+
+
+  /* Estilo do menu */
+  .menu {
+    height: 100%;
+  }
+
+  #menu{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  /* Estilo do inicio e foto */
+  .inicio p{
+    font-size: 20px;
+  }
+
+  .inicio img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .btn-portifolio {
+    margin-top: 10px;
+    padding-left: 0px;
+  }
+
+
+  /*Estilo do Curso*/
+  .proz h6, p{
+    font-size: 15px;
+  }
+
+  .proz {
+    padding-bottom: 50px;
+  }
+
+  #curso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  /*Estilo dos projetos*/
+  .meuslinks img{
+    width: 100px;
+  }
+
+  .meuslinks {
+    display: flex;
+  }
+
+  /* Estilo das habilidades*/
+  .habilidades {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  /* Estilo dos contatos*/
+  .contato {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .github {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /*Estilo do Rodapé*/
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px 5%;
+  }
+
+  .footer-content {
+    margin-bottom: 30px;
   }
 }
