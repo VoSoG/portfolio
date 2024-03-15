@@ -11,6 +11,9 @@ body {
   font-family: Arial, sans-serif;
   background-color: #051029;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titulo {
@@ -36,11 +39,21 @@ details[open] summary:after {
   content: 'FECHAR';
 }
 
+#sobremim,
+.dados-pessoais,
+.curso,
+#projetos,
+#habilidades,
+#contatos {
+  width: 95%;
+}
+
+
 /* Estilo do cabeçalho */
-header {
+.header {
   background-color: #333;
   color: white;
-  padding: 100px 0;
+  width: 100%;
 }
 
 .cabecalho {
@@ -85,7 +98,7 @@ header {
   border-radius: 25px;
   text-decoration: none;
   color: #ffffff;
-  padding: 10px 20px;
+  padding: 10px 25px;
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -97,6 +110,10 @@ header {
 
 
 /* Estilo da seção "Início" */
+#inicio {
+  width: 100%;
+}
+
 .inicio {
   padding: 50px 0;
   display: flex;
@@ -114,6 +131,7 @@ header {
   font-family: 'Times New Roman', Times, serif;
   color: white;
   font-size: 45px;
+  width: 100%;
 }
 
 .btn-portifolio a {
@@ -138,7 +156,7 @@ header {
   background-color: #09193f;
   padding: 30px;
   margin: 20px 0;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -152,9 +170,8 @@ header {
   margin-bottom: 10px;
   text-align: center;
 }
-
-
 #sobremim p {
+  width: 100%;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -165,7 +182,7 @@ header {
   background-color: #09193f;
   padding: 30px;
   margin: 20px 0;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -175,6 +192,7 @@ header {
 }
 
 .dados-pessoais p {
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 15px;
   text-align: center;
@@ -186,7 +204,7 @@ header {
   background-color: #09193f;
   padding: 30px;
   margin: 20px 0;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -207,6 +225,7 @@ header {
 
 .proz p, 
 .zion p {
+  width: 100%;
   margin-bottom: 5px;
   text-align: center;
 }
@@ -217,7 +236,7 @@ header {
   background-color: #09193f;
   padding: 30px;
   margin: 20px 0;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -240,6 +259,7 @@ header {
   margin-bottom: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .meuslinks h4 {
@@ -269,7 +289,31 @@ header {
 }
 
 .título-desc h4,p {
+  width: 100%;
   margin-bottom: 30px;
+  width: 50%;
+}
+
+.porcentagem {
+  width: 10%;
+  height: 85%;
+}
+
+.porcentagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.porcentagem img{
+  width: 50px;
+}
+
+.porcentagem p {
+  width: 50%;
+  margin-top: 2px;
+  text-align: center;
+  font-size: 15px;
 }
 
 
@@ -278,7 +322,7 @@ header {
   background-color: #09193f;
   padding: 30px;
   margin: 20px 0;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -299,22 +343,15 @@ header {
   margin-top: 20px;
 }
 
-.html5,
-.css3{
-  width: 90px;
+.html, .css, .js, .bootstrap, .mysql {
+  text-align: center;
 }
 
-.javascript{
-  width: 118px;
-}
-
-.diagrama{
-  width: 128px;
-}
-
-.mysql {
-  width: 180px;
-}
+.html img { width: 128px; }
+.css img { width: 128px; }
+.js img { width: 128px; }
+.bootstrap img {width: 128px; }
+.mysql img { width: 128px; }
 
 
 /* Estilo da seção "Contato" */
@@ -322,7 +359,7 @@ header {
   background-color: #09193f;
   padding: 30px;
   margin: 20px 0;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -351,19 +388,19 @@ header {
 
 .github:hover,
 .gmail:hover,
-.linked:hover
-{
+.linked:hover {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: rgb(14, 209, 199);
   color: black;
   padding: 15px 25px;
   border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s, padding 0.3s;
 }
 
 
 /* Rodapé */
 footer {
-  background-color: #800080;
+  width: 100%;
 }
 
 .footer {
@@ -420,11 +457,31 @@ footer {
   margin: 5px 0;
 }
 
+.footer-content a {
+  font-size: 16px;
+  color: rgb(10, 14, 247);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-content a:hover {
+  font-size: 17px;
+  color: white;
+}
+
 .acessar {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   flex-direction: row;
+}
+
+.acessar a {
+  transition: transform 0.3s ease-in-out;
+}
+
+.acessar a:hover {
+  transform: scale(1.1);
 }
 
 #curriculo {
@@ -442,6 +499,7 @@ footer {
 }
 
 footer div{
+  width: 100%;
   background-color: #080427;
 }
 
