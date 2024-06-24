@@ -28,4 +28,8 @@ Aqui está uma visão geral da estrutura de arquivos do projeto:
 ```plaintext
 |
 ├── index.html         # https://github.com/VoSoG/portfolio/blob/main/index.html
-└── style.css          # https://github.com/VoSoG/portfolio/blob/main/style.css
+├── style.css          # https://github.com/VoSoG/portfolio/blob/main/style.css
+└── ASSENTS |          # https://github.com/VoSoG/portfolio/tree/main/assets
+            ├── img    # https://github.com/VoSoG/portfolio/tree/main/assets/images
+            ├── js     # https://github.com/VoSoG/portfolio/tree/main/assets/js
+            └── css    # https://github.com/VoSoG/portfolio/tree/main/assets/styles
