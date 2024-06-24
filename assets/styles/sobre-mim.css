@@ -1,0 +1,25 @@
+/* Estilo da seção "Sobre Mim" */
+#sobremim {
+    background-color: #09193f;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sobremim h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#sobremim h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#sobremim p {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}

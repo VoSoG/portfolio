@@ -1,0 +1,39 @@
+/* Estilo da seção "Habilidades" */
+#habilidades {
+    background-color: #09193f;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#habilidades h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#habilidades a {
+    margin: 0 10px;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.html, 
+.css, 
+.js, 
+.bootstrap, 
+.mysql {
+    text-align: center;
+}
+
+.html img { width: 128px; }
+.css img { width: 128px; }
+.js img { width: 128px; }
+.bootstrap img {width: 128px; }
+.mysql img { width: 128px; }

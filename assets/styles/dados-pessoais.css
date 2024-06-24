@@ -1,0 +1,20 @@
+/* Estilo da seção "Dados Pessoais" */
+.dados-pessoais {
+    background-color: #09193f;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dados-pessoais h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.dados-pessoais p {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}

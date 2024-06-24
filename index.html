@@ -1,352 +1,488 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Meu Portfolio</title>
-    <link rel="stylesheet" href="style.css">
 
-    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
-  </head>
-  <body>
-    <div id="header" class="header">
-      <ul class="menu">
-        <div class="logo">
-          <a href="#header"><img src="https://i.ibb.co/MSjbCkV/1695750934753.png" alt="Logo"></a>
-        </div>
-        <div id="menu">
-          <li><a class="cabecalho" href="#sobremim">Sobre mim</a></li>
-          <li><a class="cabecalho" href="#projetos">Projetos</a></li>
-          <li><a class="cabecalho" href="#habilidades">Habilidades</a></li>
-          <li><a class="cabecalho" href="#contato">Contato</a></li>
-        </div>
-      </ul>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meu Portfolio</title>
 
-    <div id="inicio">
-      <div class="inicio">
-        <div id="container">
-          <p>Olá me chamo Luis e sou</p><p id="texto"></p>
-        </div>
+  <!-- ESTILOS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/styles/sobre-mim.css">
+  <link rel="stylesheet" href="assets/styles/dados-pessoais.css">
+  <link rel="stylesheet" href="assets/styles/curso.css">
+  <link rel="stylesheet" href="assets/styles/projetos.css">
+  <link rel="stylesheet" href="assets/styles/habilidades.css">
+  <link rel="stylesheet" href="assets/styles/contatos.css">
 
-        <img src="https://i.ibb.co/TkrThKQ/IMG-20230614-160252-113.jpg" alt="foto perfil">
+  <!-- APIS -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+</head>
+
+<body>
+  <div id="header" class="header">
+    <ul class="menu">
+      <div class="logo">
+        <a href="#header"><img src="https://i.ibb.co/MSjbCkV/1695750934753.png" alt="Logo"></a>
+      </div>
+      <div id="menu">
+        <li><a class="cabecalho" href="#sobremim">Sobre mim</a></li>
+        <li><a class="cabecalho" href="#projetos">Projetos</a></li>
+        <li><a class="cabecalho" href="#habilidades">Habilidades</a></li>
+        <li><a class="cabecalho" href="#contato">Contato</a></li>
+      </div>
+    </ul>
+  </div>
+
+  <div id="inicio">
+    <div class="inicio">
+      <div id="container">
+        <p>Olá me chamo Luis e sou</p>
+        <p id="texto"></p>
       </div>
 
-      <div class="btn-portifolio">
-        <a href="https://drive.google.com/file/d/1k2XVn0A2WJWD_6n98_ojrfmSTATg9urZ/view?usp=sharing">VER CURRICULO</a>
+      <img src="assets/images/foto1.jpg" alt="foto perfil">
+    </div>
+
+    <div class="btn-portifolio">
+      <a href="https://drive.google.com/file/d/1k2XVn0A2WJWD_6n98_ojrfmSTATg9urZ/view?usp=sharing">VER CURRICULO</a>
+    </div>
+  </div>
+
+
+  <div id="sobremim">
+    <details>
+      <summary>
+        <h2 class="titulo">SOBRE MIM</h2>
+      </summary>
+
+      <h3>Olá, me chamo Luis Henrique</h3>
+      <p>Sou um programador Front-End e estou a procura de freelancers ou o primeiro emprego, infelizmente não </p>
+      <p>possuo experiência de trabalho formal, mas possuo as habilidades certas para sua empresa/serviço, </p>
+      <p>sendo elas: curiosidade em aprender sobre assuntos diferentes, habilidade em adaptação em diversos</p>
+      <p>ambientes e habilidade de conversação com foco em empatia, como não tenho experiência vou ser perfeito</p>
+      <p>para qualquer vaga pois não tenho vícios trabalhistas e vou ser moldado de acordo com as diretrizes e</p>
+      <p>valores da sua empresa</p>
+    </details>
+  </div>
+
+  <div class="dados-pessoais">
+    <details>
+      <summary>
+        <h2 class="titulo">DADOS PESSOAIS</h2>
+      </summary>
+      <p>Empregado: Não</p>
+      <p>Data de nascimento: 04/02/2004</p>
+      <p>Nível de Escolaridade: Ensino Médio completo</p>
+      <p>Pessoa Portadora de Deficiência (PCD): Não</p>
+    </details>
+  </div>
+
+  <div class="curso">
+    <details>
+      <summary>
+        <h2 class="titulo">CURSO</h2>
+      </summary>
+      <div id="curso">
+        <div class="proz">
+          <h6 class="titulo">Proz Educação (Trilhas do Futuro)</h6>
+          <p>◇─────────────◇─────────────◇</p>
+          <p>Desenvolvimento de sistema</p>
+          <p>Início: 02/08/2022</p>
+          <p>Finalizado: Cursando</p>
+        </div>
+        <div class="zion">
+          <h6 class="titulo">Escola Zion (BH)</h6>
+          <p>◇───────◇───────◇</p>
+          <p>Photoshop</p>
+          <p>Edição de Vídeo</p>
+          <p>Design de jogos 3D</p>
+          <p>Início: 26/08/2022</p>
+          <p>Finalizado: Cursando</p>
+        </div>
       </div>
-    </div>
+    </details>
+  </div>
 
-    <br>
+  <div id="projetos">
+    <details>
+      <summary>
+        <h2 class="titulo">PROJETOS</h2>
+      </summary>
+      <div class="container">
 
-    <div id="sobremim">
-      <details>
-        <summary><h2 class="titulo">SOBRE MIM</h2></summary>
+        <div class="espaçamento">
 
-        <h3>Olá, me chamo Luis Henrique</h3>
-          <p>Sou um programador Front-End e estou a procura de freelancers ou o primeiro emprego, infelizmente não </p>
-          <p>possuo experiência de trabalho formal, mas possuo as habilidades certas para sua empresa/serviço, </p>
-          <p>sendo elas: curiosidade em aprender sobre assuntos diferentes, habilidade em adaptação em diversos</p> 
-          <p>ambientes e habilidade de conversação com foco em empatia, como não tenho experiência vou ser perfeito</p> 
-          <p>para qualquer vaga pois não tenho vícios trabalhistas e vou ser moldado de acordo com as diretrizes e</p> 
-          <p>valores da sua empresa</p>
-      </details>
-    </div>
-
-    <div class="dados-pessoais">
-      <details>
-        <summary><h2 class="titulo">DADOS PESSOAIS</h2></summary> 
-        <p>Empregado: Não</p>
-        <p>Data de nascimento: 04/02/2004</p>
-        <p>Nível de Escolaridade: Ensino Médio completo</p>
-        <p>Pessoa Portadora de Deficiência (PCD): Não</p>
-      </details>
-    </div>
-
-    <div class="curso">
-      <details>
-        <summary><h2 class="titulo">CURSO</h2></summary>
-        <div id="curso">
-          <div class="proz">
-            <h6 class="titulo">Proz Educação (Trilhas do Futuro)</h6>
-            <p>◇─────────────◇─────────────◇</p>
-            <p>Desenvolvimento de sistema</p>
-            <p>Início: 02/08/2022</p>
-            <p>Finalizado: Cursando</p>
+          <div class="project">
+            <img src="assets\images\bully.jpg" alt="bullying" class="project-img" id="bullyyy">
+            <div class="project-title" onclick="openProjectDetails('overlay1')">Bully</div>
+            <div class="overlay" id="overlay1">
+              <div class="project-details">
+                <span class="close" onclick="closeProjectDetails('overlay1')">&times;</span>
+                <div class="divisao">
+                  <img src="https://i.ibb.co/wRr76zc/vosog-github-2.jpg" alt="bullying">
+                  <div class="escrita">
+                    <div class="detalhes">
+                      <h2>Bully</h2>
+                      <p>
+                        "Bullying" foi uma ação que eu fiz em sala de de aula, o
+                        projeto era contra o bullying contento um dialogo e um site
+                        de atulizações.
+                      </p>
+                    </div>
+                    <div class="porcentagens">
+                      <div>
+                        <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="HTML5">
+                        <p>39.98% DE HTML</p>
+                      </div>
+                      <div>
+                        <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS3">
+                        <p>44.78%% DE CSS</p>
+                      </div>
+                      <div>
+                        <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="JS">
+                        <p>15.24% DE JS</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="buttons">
+                  <a href="https://vosog.github.io/bully-site/" class="btn">Visitar Site</a>
+                  <a href="https://github.com/stars/VoSoG/lists/bullying" class="btn">Repositório no GitHub</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="zion">
-            <h6 class="titulo">Escola Zion (BH)</h6>
-            <p>◇───────◇───────◇</p>
-            <p>Photoshop</p>
-            <p>Edição de Vídeo</p>
-            <p>Design de jogos 3D</p>
-            <p>Início: 26/08/2022</p>
-            <p>Finalizado: Cursando</p>
+
+          <div class="project">
+            <img src="assets\images\calça-di-shopping.jpg" alt="Calça-di-Shopping" class="project-img">
+            <div class="project-title" onclick="openProjectDetails('overlay2')">Calça di Shopping</div>
+            <div class="overlay" id="overlay2">
+              <div class="project-details">
+                <span class="close" onclick="closeProjectDetails('overlay2')">&times;</span>
+                <div class="divisao">
+                  <img src="https://i.ibb.co/23m6hGN/vosog-github.jpg" alt="Calça-di-Shopping">
+                  <div class="escrita">
+                    <div class="detalhes">
+                      <h2>Calça di Shopping</h2>
+                      <p>
+                        O projeto "Calça Di Shopping" foi criado para aperfeiçoar
+                        meus conhecimentos e testar minhas habilidades na construção
+                        de landing pages, utilizando apenas HTML e CSS. Este site
+                        não contém JavaScript ou qualquer outra linguagem de programação;
+                        ele se baseia exclusivamente em marcação e estilo.
+                      </p>
+                    </div>
+                    <div class="porcentagens">
+                      <div>
+                        <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="HTML5">
+                        <p>25.86% DE HTML</p>
+                      </div>
+                      <div>
+                        <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS3">
+                        <p>70.69% DE CSS</p>
+                      </div>
+                      <div>
+                        <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="JS">
+                        <p>3.45% DE JS</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="buttons">
+                  <a href="https://vosog.github.io/calcadishopping/" class="btn">Visitar Site</a>
+                  <a href="https://github.com/vosog/calcadishopping" class="btn">Repositório no GitHub</a>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <div class="project">
+            <img src="assets\images\meus-links.jpg" alt="Meus-Links" class="project-img">
+            <div class="project-title" onclick="openProjectDetails('overlay3')">Meus Links</div>
+            <div class="overlay" id="overlay3">
+              <div class="project-details">
+                <span class="close" onclick="closeProjectDetails('overlay3')">&times;</span>
+                <div class="divisao">
+                  <img src="https://i.ibb.co/t3GvkZR/vosog-github-3.jpg" alt="Meus-Links">
+                  <div class="escrita">
+                    <div class="detalhes">
+                      <h2>Meus Links</h2>
+                      <p>
+                        "Meus Links" é um site que criei porque não queria criar uma
+                        conta em plataformas como Linktree nem compartilhar meus dados
+                        pessoais. Por isso, decidi desenvolver meu próprio site.
+                      </p>
+                    </div>
+                    <div class="porcentagens">
+                      <div>
+                        <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="HTML5">
+                        <p>32.87% DE HTML</p>
+                      </div>
+                      <div>
+                        <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS3">
+                        <p>45.37% DE CSS</p>
+                      </div>
+                      <div>
+                        <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="JS">
+                        <p>21.30% DE JS</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="buttons">
+                  <a href="https://vosog.github.io/meuslinks/" class="btn">Visitar Site</a>
+                  <a href="https://github.com/vosog/meuslinks" class="btn">Repositório no GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </details>
-    </div>
+        <br>
+        <div class="espaçamento">
 
-    <div id="projetos">
-      <details>
-        <summary><h2 class="titulo">PROJETOS</h2></summary>
-        <div class="projetos">
-
-          <div class="meuslinks">
-            <img  src="https://i.ibb.co/wRr76zc/vosog-github-2.jpg" alt="bullying">
-            <div class="título-desc">
-              <h4>Bully</h4>
-              <p>"Bullying" foi uma ação que eu fiz em sala de de aula, o projeto era contra o bullying contento um dialogo e um site de atulizações.</p>
-              <a href="https://vosog.github.io/bully-site/">Acessar site</a>
-            </div>
-            <div class="porcentagem">
-              <div>
-                <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="HTML5">
-                <p>39.98% DE HTML</p>
-              </div>
-              <div>
-                <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS3">
-                <p>44.78% DE CSS</p>
-              </div>
-              <div>
-                <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="JS">
-                <p>15.24% DE JS</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="meuslinks">
-            <img src="https://i.ibb.co/23m6hGN/vosog-github.jpg"
-              alt="Calça-di-Shopping">
-            <div class="título-desc">
-              <h4>Calça di Shopping</h4>
-              <p>Esse projeto foi pessoal e familiar, pois minha irmã é tatuadora e eu pensei que seria uma boa fazer para ela.</p>
-              <a href="https://vosog.github.io/calcadishopping/">Acessar site</a>
-            </div>
-            <div class="porcentagem">
-              <div>
-                <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="HTML5">
-                <p>25.86% DE HTML</p>
-              </div>
-              <div>
-                <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS3">
-                <p>70.69% DE CSS</p>
-              </div>
-              <div>
-                <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="JS">
-                <p>3.45% DE JS</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="meuslinks">
-            <img src="https://i.ibb.co/t3GvkZR/vosog-github-3.jpg" alt="Meus-Links">
-            <div class="título-desc">
-              <h4>Meus Links</h4>
-              <p>"Meus Links" foi um site que eu criei porque não queria criar conta em sites como Linktree e nem passar meus dados , então eu criei esse site</p>
-              <a href="https://vosog.github.io/meuslinks/">Acessar site</a>
-            </div>
-            <div class="porcentagem">
-              <div>
-                <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="HTML5">
-                <p>32.87% DE HTML</p>
-              </div>
-              <div>
-                <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS3">
-                <p>45.37% DE CSS</p>
-              </div>
-              <div>
-                <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="JS">
-                <p>21.30% DE JS</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="meuslinks">
-            <img src="https://i.ibb.co/FnL49xb/vosog-github.jpg" alt="Site-cafe">
-            <div class="título-desc">
-              <h4>Coffee</h4>
-              <p>O site "coffee" foi concebido da minha inspiração artística, evoluindo de um esboço no papel para um design refinado no Canva. Este projeto é a expressão da minha paixão por criar ambientes digitais aconchegantes e cativantes, destacando minha habilidade técnica e compromisso com a experiência do usuário.</p>
-              <a href="https://vosog.github.io/coffee/">Acessar site</a>
-            </div>
-            <div class="porcentagem">
-              <div>
-                <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="HTML5">
-                <p>40% DE HTML</p>
-              </div>
-              <div>
-                <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS3">
-                <p>40% DE CSS</p>
-              </div>
-              <div>
-                <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="JS">
-                <p>20% DE JS</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="meuslinks">
-            <img src="https://i.ibb.co/S5nfyrw/vosog-github-1.jpg" alt="GeoBoat">
-            <div class="título-desc">
-              <h4>GeoBoat</h4>
-              <p>"GeoBoat" foi um projeto feito em grupo, o objetivo era o grupo criar uma ideia inovadora e criar um site em cima disso.</p>
-              <a href="https://vosog.github.io/geoboat-telaprincipal/">Acessar site</a>
-            </div><div class="porcentagem">
-              <div>
-                <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="HTML5">
-                <p>57.13% DE HTML</p>
-              </div>
-              <div>
-                <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS3">
-                <p>32.07% DE CSS</p>
-              </div>
-              <div>
-                <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="JS">
-                <p>21.30% DE JS</p>
+          <div class="project">
+            <img src="assets\images\coffee.jpg" alt="Site-cafe" class="project-img">
+            <div class="project-title" onclick="openProjectDetails('overlay4')">Coffee</div>
+            <div class="overlay" id="overlay4">
+              <div class="project-details">
+                <span class="close" onclick="closeProjectDetails('overlay4')">&times;</span>
+                <div class="divisao">
+                  <img src="https://i.ibb.co/tDjkMkK/vosog-github-1.jpg" alt="Site-cafe">
+                  <div class="escrita">
+                    <div class="detalhes">
+                      <h2>Coffee</h2>
+                      <p>
+                        O site "coffee" foi concebido da minha inspiração artística,
+                        evoluindo de um esboço no papel para um design refinado no
+                        Canva. Este projeto é a expressão da minha paixão por criar
+                        ambientes digitais aconchegantes e cativantes, destacando minha
+                        habilidade técnica e compromisso com a experiência do usuário.
+                      </p>
+                    </div>
+                    <div class="porcentagens">
+                      <div>
+                        <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="HTML5">
+                        <p>40% DE HTML</p>
+                      </div>
+                      <div>
+                        <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS3">
+                        <p>40% DE CSS</p>
+                      </div>
+                      <div>
+                        <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="JS">
+                        <p>20% DE JS</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="buttons">
+                  <a href="https://vosog.github.io/coffee/" class="btn">Visitar Site</a>
+                  <a href="https://github.com/vosog/coffee" class="btn">Repositório no GitHub</a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="meuslinks">
-            <img src="https://i.ibb.co/6HWRcGH/vosog-github-1.jpg" alt="Site-">
-            <div class="título-desc">
-              <h4>Coffee</h4>
-              <p>O site "coffee" foi concebido da minha inspiração artística, evoluindo de um esboço no papel para um design refinado no Canva. Este projeto é a expressão da minha paixão por criar ambientes digitais aconchegantes e cativantes, destacando minha habilidade técnica e compromisso com a experiência do usuário.</p>
-              <a href="https://vosog.github.io/coffee/">Acessar site</a>
-            </div>
-            <div class="porcentagem">
-              <div>
-                <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="HTML5">
-                <p>40% DE HTML</p>
-              </div>
-              <div>
-                <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS3">
-                <p>40% DE CSS</p>
-              </div>
-              <div>
-                <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="JS">
-                <p>20% DE JS</p>
+          <div class="project">
+            <img src="assets\images\geoboat.jpg" alt="GeoBoat" class="project-img">
+            <div class="project-title" onclick="openProjectDetails('overlay5')">GeoBoat</div>
+            <div class="overlay" id="overlay5">
+              <div class="project-details">
+                <span class="close" onclick="closeProjectDetails('overlay5')">&times;</span>
+                <div class="divisao">
+                  <img src="https://i.ibb.co/S5nfyrw/vosog-github-1.jpg" alt="GeoBoat">
+                  <div class="escrita">
+                    <div class="detalhes">
+                      <h2>GeoBoat</h2>
+                      <p>
+                        "GeoBoat" foi um projeto desenvolvido em grupo, cujo objetivo
+                        era criar uma ideia inovadora e construir um site a partir dela.
+                        No início do curso, meu grupo havia criado um slider para esse 
+                        projeto, e então decidimos dar vida a essa ideia novamente.
+                      </p>
+                    </div>
+                    <div class="porcentagens">
+                      <div>
+                        <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="HTML5">
+                        <p>57.13% DE HTML</p>
+                      </div>
+                      <div>
+                        <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS3">
+                        <p>32.07% DE CSS</p>
+                      </div>
+                      <div>
+                        <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="JS">
+                        <p>21.30% DE JS</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="buttons">
+                  <a href="https://vosog.github.io/geoboat-telaprincipal/" class="btn">Visitar Site</a>
+                  <a href="https://github.com/stars/VoSoG/lists/geo-boat-site" class="btn">Repositório no
+                    GitHub</a>
+                </div>
               </div>
             </div>
           </div>
+
+          <div class="project">
+            <img src="assets\images\baison.jpg" alt="Site-cafe" class="project-img">
+            <div class="project-title" onclick="openProjectDetails('overlay6')">Baison</div>
+            <div class="overlay" id="overlay6">
+              <div class="project-details">
+                <span class="close" onclick="closeProjectDetails('overlay6')">&times;</span>
+                <div class="divisao">
+                  <img src="https://i.ibb.co/pKVv1cB/vosog-github-3.jpg" alt="Baison">
+                  <div class="escrita">
+                    <div class="detalhes">
+                      <h2>Coffee</h2>
+                      <p>
+                        O site "Baison" foi o meu primeiro projeto feito sozinho e apenas
+                        com minhas competências próprias. Eu estava à procura de algum 
+                        projeto para fazer quando me surgiu a ideia de criá-lo. O "Baison" 
+                        tem um sistema de mudança de foto, mas, infelizmente, não é permanente. 
+                        A ideia que eu tive foi de uma loja de roupas onde o usuário poderia 
+                        dar seu feedback à loja.
+                      </p>
+                    </div>
+                    <div class="porcentagens">
+                      <div>
+                        <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="HTML5">
+                        <p>33.51% DE HTML</p>
+                      </div>
+                      <div>
+                        <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS3">
+                        <p>45.48% DE CSS</p>
+                      </div>
+                      <div>
+                        <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="JS">
+                        <p>21% DE JS</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="buttons">
+                  <a href="https://vosog.github.io/baison/" class="btn">Visitar Site</a>
+                  <a href="https://github.com/vosog/baison" class="btn">Repositório no GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </details>
-    </div>
-    
-    <div id="habilidades">
-      <details>
-        <summary><h2 class="titulo">HABILIDADES</h2></summary>
-        <div class="habilidades">
-          <div class="html">
-            <h3>HTML:5</h3>
-            <img src="https://logospng.org/download/html-5/logo-html-5-512.png" alt="HTML5">
-          </div>
 
-          <div class="css">
+      </div>
+    </details>
+  </div>
+
+  <div id="habilidades">
+    <details>
+      <summary>
+        <h2 class="titulo">HABILIDADES</h2>
+      </summary>
+      <div class="habilidades">
+        <div class="html">
+          <h3>HTML:5</h3>
+          <img src="https://logospng.org/download/html-5/logo-html-5-512.png" alt="HTML5">
+        </div>
+
+        <div class="css">
           <h3>CSS:3</h3>
-            <img src="https://logospng.org/download/css-3/logo-css-3-512.png" alt="CSS3">
-          </div>
-
-          <div class="js">
-            <h3>JavaScript</h3>
-            <img src="https://logospng.org/download/javascript/logo-javascript-512.png" alt="JavaScript">
-          </div>
-
-          <div class="bootstrap">
-            <h3>BootStrap</h3>
-            <img src="https://logospng.org/download/bootstrap/bootstrap-512.png" alt="BootStrap">
-          </div>
-          
-          <div class="mysql">
-            <h3>My SQL</h3>
-            <img src="https://logospng.org/download/mysql/mysql-512.png" alt="MySQL">
-          </div>
+          <img src="https://logospng.org/download/css-3/logo-css-3-512.png" alt="CSS3">
         </div>
-      </details>
+
+        <div class="js">
+          <h3>JavaScript</h3>
+          <img src="https://logospng.org/download/javascript/logo-javascript-512.png" alt="JavaScript">
+        </div>
+
+        <div class="bootstrap">
+          <h3>BootStrap</h3>
+          <img src="https://logospng.org/download/bootstrap/bootstrap-512.png" alt="BootStrap">
+        </div>
+
+        <div class="mysql">
+          <h3>My SQL</h3>
+          <img src="https://logospng.org/download/mysql/mysql-512.png" alt="MySQL">
+        </div>
+      </div>
+    </details>
+  </div>
+
+  <div id="contatos">
+    <details>
+      <summary>
+        <h2 class="titulo">CONTATO</h2>
+      </summary>
+      <div class="contato">
+
+        <div class="github">
+          <a href="https://github.com/VoSoG"><img class=""
+              src="https://logosmarcas.net/wp-content/uploads/2020/12/GitHub-Simbolo.png" alt="GitHub"></a>
+        </div>
+
+        <div class="gmail">
+          <a href="mailto:lhvs1707@gmail.com"><img class=""
+              src="https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-0.png" alt="Gmail"></a>
+        </div>
+
+        <div class="linked">
+          <a href="https://www.linkedin.com/in/luis-souza-139135253/"><img class=""
+              src="https://logospng.org/download/linkedin/logo-linkedin-2048.png" alt="Linked"></a>
+        </div>
+      </div>
+    </details>
+  </div>
+</body>
+
+<footer>
+  <section class="footer">
+    <div class="fundo">
+      <a class="portfolio" href="#header">
+        <img src="https://i.ibb.co/MSjbCkV/1695750934753.png" alt="Logo">
+        <span>Portfolio</span>
+      </a>
     </div>
 
-    <div id="contatos">
-      <details>
-        <summary><h2 class="titulo">CONTATO</h2></summary>
-        <div class="contato">
-
-          <div class="github">
-            <a href="https://github.com/VoSoG"><img class="" src="https://logosmarcas.net/wp-content/uploads/2020/12/GitHub-Simbolo.png" alt="GitHub"></a>
-          </div>
-
-          <div class="gmail">
-            <a href="mailto:lhvs1707@gmail.com"><img class="" src="https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-0.png" alt="Gmail"></a>
-          </div>
-
-          <div class="linked">
-            <a href="#"><img class="" src="https://logospng.org/download/linkedin/logo-linkedin-2048.png" alt="Linked"></a>
-          </div>
-        </div>
-      </details>
-    </div>
-  </body>
-
-  <footer>
-    <section class="footer">
-      <div class="fundo">
-        <a class="portfolio" href="#header">
-          <img src="https://i.ibb.co/MSjbCkV/1695750934753.png" alt="Logo">
-          <span>Portfolio</span>
+    <div class="footer-content">
+      <h4>Caso tenha interesse, entre em contato</h4>
+      <p>Telefone: <span><a class="referencia" href="tel:+5531995014927">(31) 9 9501-4927</a></span></p>
+      <p>Gmail: <span><a class="referencia" href="mailto:lhvs7107@gmail.com">lhvs7107@gmail.com</a></span></p>
+      <div class="acessar">
+        <a href="https://drive.google.com/file/d/1k2XVn0A2WJWD_6n98_ojrfmSTATg9urZ/view?usp=sharing" download><img
+            id="curriculo"
+            src="https://images.vexels.com/media/users/3/140030/isolated/preview/521136d25b37386f49728b93d2e4e6fa-icone-cv.png"
+            alt="currículo"></a>
+        <a href="https://www.linkedin.com/in/luis-henrique-139135253/">
+          <img id="linked" src="https://img.freepik.com/vetores-premium/logotipo-linkedin_578229-227.jpg" alt="linked">
+        </a>
+        <a href="https://www.instagram.com/luisin004/">
+          <img id="instagram" src="https://freepngimg.com/thumb/instagram/118541-logo-instagram-png-download-free.png" alt="instagram">
         </a>
       </div>
+    </div>
+  </section>
 
-      <div class="footer-content">
-        <h4>Caso tenha interesse, entre em contato</h4>
-        <p>Telefone: <span><a class="referencia" href="tel:+5531995014927">(31) 9 9501-4927</a></span></p>
-        <p>Gmail: <span><a class="referencia" href="mailto:lhvs7107@gmail.com">lhvs7107@gmail.com</a></span></p>
-        <div class="acessar">
-          <a href="https://drive.google.com/file/d/1k2XVn0A2WJWD_6n98_ojrfmSTATg9urZ/view?usp=sharing" download><img id="curriculo" src="https://images.vexels.com/media/users/3/140030/isolated/preview/521136d25b37386f49728b93d2e4e6fa-icone-cv.png" alt="currículo"></a>
-          <a href=""><img id="linked" src="https://img.freepik.com/vetores-premium/logotipo-linkedin_578229-227.jpg" alt="linked"></a>
-          <a href="https://www.instagram.com/luisin004/"><img id="instagram" src="https://freepngimg.com/thumb/instagram/118541-logo-instagram-png-download-free.png" alt="instagram"></a>
-        </div>
-      </div>
-    </section>
+  <div>
+    <div class="criador">
+      <p>Site totalmente autoral</p>
+      <a href="https://www.instagram.com/luisin___01/">
+        <p>By: Luis Henrique</p>
+      </a>
+    </div>
 
-    <div>
-      <div class="criador">
-        <p>Site totalmente autoral</p>
-        <a href="https://www.instagram.com/luisin004/"><p>By: Luis Henrique</p></a>
-      </div>
+    <div class="origem">
+      <h5>V1.6(BETA)</h5>
+      <span class="copy-symbol"> | © 2023 | </span>
+      <h5>ultima aualização: 24/06/2024, as 19:15</h5>
+    </div>
+  </div>
+</footer>
 
-      <div class="origem">
-        <h5>V1.5(BETA)</h5>
-        <span class="copy-symbol"> | ©</span> 2023
-      </div>
-  </footer>
+<script src="assets/js/script.js"></script>
 
-
-  <script>
-    const texto = "DEV Front-End UX/UI";
-    let index = 0;
-    let escrevendo = true;
-    function animacaoMaquinaEscrever() {
-      const elementoTexto = document.getElementById("texto");
-      if (escrevendo) {
-        elementoTexto.textContent += texto[index];
-        index++;
-        if (index === texto.length) {
-          escrevendo = false;
-          setTimeout(animacaoMaquinaEscrever, 1000);
-      } else {
-        setTimeout(animacaoMaquinaEscrever, 150);
-      }
-    } else {
-        elementoTexto.textContent = texto.substring(0, index - 1);
-      index--;
-      if (index === 0) {
-        escrevendo = true;
-        setTimeout(animacaoMaquinaEscrever, 1000);
-      } else {
-        setTimeout(animacaoMaquinaEscrever, 100);
-        }
-      }
-    }
-
-    window.onload = animacaoMaquinaEscrever;
-  </script>
 </html>

@@ -1,0 +1,30 @@
+/* Estilo da seção "Curso" */
+.curso {
+    background-color: #09193f;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#curso {
+    display: flex;
+    justify-content: space-around;
+}
+
+.curso h6 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.curso h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.proz p, 
+.zion p {
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+}

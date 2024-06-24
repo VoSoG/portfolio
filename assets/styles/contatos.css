@@ -1,0 +1,42 @@
+/* Estilo da seção "Contato" */
+#contatos {
+    background-color: #09193f;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contatos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contato img {
+    width: 120px;
+}
+
+.contato {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Estilo de GitHub */
+.github {
+    display: flex;
+    align-items: center;
+}
+
+.github:hover,
+.gmail:hover,
+.linked:hover {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(14, 209, 199);
+    color: black;
+    padding: 10px 12px;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s, padding 0.3s;
+}
