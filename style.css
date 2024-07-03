@@ -384,7 +384,8 @@ footer div{
 @media screen and (max-width: 600px) {
   /* Estilo dos Contatos */
   .contato {
-    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -399,5 +400,52 @@ footer div{
   #menu{
     display: flex;
     flex-direction: column;
+  }
+
+
+  /* Estilo do Inicio */  
+  .inicio img {
+    width: 30%;
+  }
+
+  #container p {
+    font-size: 15px;
+  }
+
+
+  /* Estilo do Sobre Mim */
+  #sobremim h3 {
+    font-size: 15px;
+  }
+
+  #sobremim p {
+    font-size: 13px;
+  }
+
+
+  /* Estilo dos Cursos*/
+  .barra-curso,
+  .curso h3 {
+    font-size: 10px;
+  }
+
+
+  /* Estilo das Contatos */
+  .github:hover,
+  .gmail:hover,
+  .linked:hover {
+    background-color: rgb(14, 209, 199);
+    padding: 50px 10px;
+  }
+
+
+  /* Estilo do RODAPÉ */
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .origem {
+    font-size: 15px;
   }
 }

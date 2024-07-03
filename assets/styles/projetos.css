@@ -48,10 +48,11 @@
     background-color: rgba(0, 0, 0, 0.7);
     padding: 5px 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .project-details img {
-     width: 15%;
+    width: 15%;
 }
 
 .project:hover .project-title {
@@ -143,4 +144,51 @@
 
 .porcentagens img{
     width: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    /* Estilo dos Projetos*/
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .espaçamento {
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .project-details img{
+        width: 30%;        
+    }
+
+    .project-details p{
+        font-size: 15px;
+    }
+
+    .porcentagens {
+        width: 100%;
+    }
+
+    .porcentagens div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .porcentagens img {
+        width: 70%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

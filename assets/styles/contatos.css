@@ -35,7 +35,6 @@
 .linked:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(14, 209, 199);
-    color: black;
     padding: 10px 12px;
     border-radius: 25px;
     transition: background-color 0.3s, color 0.3s, padding 0.3s;
